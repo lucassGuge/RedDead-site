@@ -1,0 +1,267 @@
+ul,
+ol {
+    list-style-type: none;
+}
+
+body {
+    background-color: #8B0000;
+    font-family: 'Times New Roman', Times, serif;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+    margin-right: 1em;
+
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+
+    max-height: auto;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+time {
+    font-size: 0.8em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(244, 244, 248);
+    padding: 0.2em;
+    border: 0, 2em;
+
+}
+
+.cabecalho {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFFFFF;
+    padding: 2em;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.logo {
+    margin-right: 20px;
+    /* Adiciona espaço entre o logo e o título */
+}
+
+.logo img {
+    width: 100px;
+    /* Largura da imagem do logotipo */
+    height: auto;
+    /* Altura automática para manter a proporção */
+}
+
+
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(244, 244, 248);
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(244, 244, 248);
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(244, 244, 248);
+}
+
+p {
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(244, 244, 248);
+    text-align: center;
+    max-width: 100%;
+    padding: 0.5em;
+    margin: 0.2em;
+    overflow: hidden;
+}
+
+#navbar {
+    font-size: 1.5em;
+    color: aliceblue;
+    text-decoration: none;
+
+
+}
+
+#histo {
+    background-color: #8B0000;
+}
+
+#histo2 {
+    background-color: #2F4F4F;
+}
+
+#per {
+    background-color: #556B2F;
+}
+
+#curi {
+    background-color: #D2B48C;
+}
+
+#cont {
+    background-color: #B0C4DE;
+}
+
+.container {
+    max-width: 100%;
+    width: 1092.8px;
+    margin: 0 auto;
+
+
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.articles article img {
+    height: 11.25em;
+    margin-top: 0.5em;
+    border: solid 0.3em black;
+    border-radius: 0.5em;
+}
+
+.articles article {
+    max-width: 33%;
+    position: relative;
+
+}
+
+.articles article p {
+    max-height: 90%
+}
+
+.articles article a {
+    background-color: rgb(103, 112, 112);
+    display: inline-block;
+    padding: 0.7em;
+    margin: 0.2em;
+    border-radius: 0.5em;
+    position: absolute;
+    bottom: 1px;
+
+}
+
+.arttitulo {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFFFFF;
+    padding: 0.5em;
+    margin: 0.2em;
+    width: 1092.8px;
+    width: 100%;
+    border: solid 0.4em black;
+    border-radius: 0.2em;
+
+
+}
+
+.news {
+    padding: 0.3em;
+    margin: 0.3em;
+}
+
+
+/* form */
+.cont-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 31.25em;
+
+}
+
+.form-contato {
+    width: 25em;
+    padding: 1.25em;
+    border: 0.0625em solid black;
+    border-radius: 0.3125em;
+    background-color: #2F4F4F;
+}
+
+.form-group {
+    margin-bottom: 0.9375em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.3125em;
+    color: #FFFFFF;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: calc(100% - 0.625em);
+    padding: 0.625em;
+    border: 0.0625em solid #ccc;
+    border-radius: 0.1875em;
+}
+
+button {
+    padding: 0.625em 1.25em;
+    background-color: #B0C4DE;
+    color: #fff;
+    border: none;
+    border-radius: 0.1875em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#pform h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: black
+}
+
+/* rodape*/
+.rodape {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFFFFF;
+    padding: 2em;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+.rodape p {
+    text-align: center;
+}
